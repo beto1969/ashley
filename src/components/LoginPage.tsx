@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 
-const PASSWORD = "you";
+const PASSWORD = "alondra";
 
 export default function LoginPage() {
   const [input, setInput] = useState("");
