@@ -6,8 +6,6 @@ import {BrowserRouter} from "react-router-dom";  // you can add your own CSS
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <BrowserRouter basename={"/ashley/"}>
             <App />
-          </BrowserRouter>
   </React.StrictMode>,
 );
