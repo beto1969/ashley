@@ -5,7 +5,7 @@ import * as THREE from 'three';
 export default function StarMarker({ position, size = 0.1 }) {
   // Load the star image texture
   // Note: You'll need to add a star.png image to your public folder
-  const texture = useTexture('/star.png');
+  const texture = useTexture('star.png');
   
   // Make texture transparent and improve rendering
   useEffect(() => {

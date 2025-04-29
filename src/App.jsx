@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import LoginPage from './LoginPage';
-import BodyModelPage from './BodyModelPage';
+import LoginPage from './components/LoginPage';
+import BodyModelPage from './components/BodyModelPage';
 
 export default function App() {
   return (
