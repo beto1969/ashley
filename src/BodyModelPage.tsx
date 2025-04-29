@@ -4,9 +4,11 @@ import { useState, useRef, useEffect } from 'react';
 import StarMarker from './StarMarker';
 import * as THREE from 'three';
 
+
+
 // Hello Kitty Head component
 function HelloKittyHead({ position, scale = 1 }) {
-  const texture = useTexture('/hello-kitty.png'); // You'll need to add this image to your public folder
+  const texture = useTexture('public/hello-kitty.png'); // You'll need to add this image to your public folder
 
   // Make texture transparent
   useEffect(() => {
@@ -38,7 +40,7 @@ function HelloKittyHead({ position, scale = 1 }) {
 }
 
 function HumanModel({ onClick, kittyPosition, showKitty }) {
-  const { scene } = useGLTF('/female_model.glb');
+  const { scene } = useGLTF('public/female_model.glb');
   const modelRef = useRef();
 
   scene.traverse((child) => {
