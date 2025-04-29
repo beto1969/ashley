@@ -4,7 +4,7 @@ import BodyModelPage from './components/BodyModelPage';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/ashley/"}>
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/body" element={<BodyModelPage />} />
