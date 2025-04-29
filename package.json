@@ -1,12 +1,12 @@
 {
-  "name": "ashleystars",
-  "homepage": "https://beto1969.github.io/ashleystars",
-  "private": false,
+  "name": "ashley",
+  "homepage": "https://beto1969.github.io/ashley/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
