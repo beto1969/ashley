@@ -1,7 +1,7 @@
 {
-  "name": "client",
+  "name": "ashleystars",
   "homepage": "https://beto1969.github.io/ashleystars",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
